@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 01b4d7ba7ee2f214a8e7fdb61ebbda23
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PohonIdleSheet_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2164
+        width: 637
+        height: 875
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a36155d5f87b4c8356aab2e4fbca5
+      internalID: -691403660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_1
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2164
+        width: 637
+        height: 875
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc06c606f7698f84fa62f11ccdf46c2e
+      internalID: 132948500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2164
+        width: 637
+        height: 875
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06f5d07a216ccf41b1106f879b44851
+      internalID: 1711746953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 2164
+        width: 637
+        height: 875
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c3f841d5d967b4b9419c2b169ff5cf
+      internalID: 635515967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 2164
+        width: 637
+        height: 875
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6124e997435f5cf44a29579d45c95577
+      internalID: 1601257370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 2164
+        width: 637
+        height: 879
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c6357759875c409e416905dc7f61f
+      internalID: 1930455724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 2164
+        width: 637
+        height: 879
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053c1be0628516a43bb20abcb8fc552e
+      internalID: 821720738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5237
+        y: 2164
+        width: 637
+        height: 886
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07347cd7466af154cb062914a65da7a2
+      internalID: -1805250190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_8
+      rect:
+        serializedVersion: 2
+        x: 6037
+        y: 2164
+        width: 637
+        height: 886
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947f326e14025642bc0bbd3f0915822
+      internalID: 650411216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_9
+      rect:
+        serializedVersion: 2
+        x: 6838
+        y: 2164
+        width: 637
+        height: 889
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f87cbe13335c46869817a12995754
+      internalID: 1305439967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1148
+        width: 637
+        height: 889
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a1ca69789b9204ea881e8fce3676e9
+      internalID: -1047060702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1148
+        width: 636
+        height: 885
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02e73f3038715d42aeb77802a15f3f7
+      internalID: -43389148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1148
+        width: 636
+        height: 885
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcaf3eee3e28174eb0e8167ab553ab0
+      internalID: -1166053742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 1148
+        width: 636
+        height: 885
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82849026e1708ec4cadd942debd858aa
+      internalID: -1657588812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1148
+        width: 636
+        height: 885
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7aaf66eb319774ca859106ed884e03
+      internalID: 856393742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 1148
+        width: 636
+        height: 885
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1361111a91ae4bf44bf8ea18a25acf02
+      internalID: -1396659830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_16
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 1148
+        width: 637
+        height: 889
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808fc03203c7cc4481952c6660a7085
+      internalID: 889187538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_17
+      rect:
+        serializedVersion: 2
+        x: 5398
+        y: 1148
+        width: 637
+        height: 889
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca5ea1fe298cc246b3a0e4d58db32e5
+      internalID: -1544528034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_18
+      rect:
+        serializedVersion: 2
+        x: 6117
+        y: 1148
+        width: 637
+        height: 886
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd44f7934f0b12448a021ebd6fae44a
+      internalID: -561593999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_19
+      rect:
+        serializedVersion: 2
+        x: 6837
+        y: 1148
+        width: 637
+        height: 886
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aff7e66984d1040aa58f00e1b6203c
+      internalID: 911833703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 108
+        width: 637
+        height: 879
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b35fccbeec87a4a94b6282cfca045b
+      internalID: 348101783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PohonIdleSheet_21
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 108
+        width: 637
+        height: 879
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d687f55287311b84892aefb68bfd2512
+      internalID: -2104434343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PohonIdleSheet_13: -1657588812
+      PohonIdleSheet_16: 889187538
+      PohonIdleSheet_12: -1166053742
+      PohonIdleSheet_2: 1711746953
+      PohonIdleSheet_5: 1930455724
+      PohonIdleSheet_18: -561593999
+      PohonIdleSheet_7: -1805250190
+      PohonIdleSheet_9: 1305439967
+      PohonIdleSheet_8: 650411216
+      PohonIdleSheet_3: 635515967
+      PohonIdleSheet_14: 856393742
+      PohonIdleSheet_0: -691403660
+      PohonIdleSheet_19: 911833703
+      PohonIdleSheet_20: 348101783
+      PohonIdleSheet_4: 1601257370
+      PohonIdleSheet_11: -43389148
+      PohonIdleSheet_17: -1544528034
+      PohonIdleSheet_15: -1396659830
+      PohonIdleSheet_21: -2104434343
+      PohonIdleSheet_1: 132948500
+      PohonIdleSheet_6: 821720738
+      PohonIdleSheet_10: -1047060702
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

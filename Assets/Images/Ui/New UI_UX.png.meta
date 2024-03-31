@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 8e65deedb3c1d034594c9f102995b856
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BorderHealth
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1617
+        width: 1340
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b966052218635c140887530b74244a08
+      internalID: -133289655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1401
+        width: 755
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d321b4252bc9af540baca037ed5cb9bb
+      internalID: 887310797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatBox
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 639
+        width: 1656
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d44bfed17a28f4b812b7fbbba9ca82
+      internalID: -1699202416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpHint
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 748
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e68a43bea105e24096427f219bc4d91
+      internalID: 199604161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoveHint
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 156
+        width: 747
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e90a91a001f4004d9a3684eb481cb35
+      internalID: 2089064594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartGame
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1439
+        width: 533
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33babb29c2f8f946ac1da02676a0a4f
+      internalID: -452369139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Option
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1329
+        width: 533
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108149df068d859498f48b690d7044df
+      internalID: 2107666640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuitGame
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1222
+        width: 533
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecdd8cd1a910d749894bd7d77385dac
+      internalID: 607761121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartGameH
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1436
+        width: 691
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee801b9c8c45dfd468ffc155124f9c30
+      internalID: -712770591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionH
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1324
+        width: 691
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cf72f96c24ebf4fa160157e72fdd31
+      internalID: -933077989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuitGameH
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1215
+        width: 691
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f143ecf834b20a4cb3176da6ea39dad
+      internalID: 1496263734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      New UI_UX_17: 1037444337
+      New UI_UX_43: 624400872
+      New UI_UX_40: 1217125051
+      BorderHealth: -133289655
+      New UI_UX_27: -1339202544
+      New UI_UX_9: -1586878614
+      New UI_UX_44: 98540928
+      New UI_UX_7: -1703545788
+      New UI_UX_21: 652916424
+      New UI_UX_33: 990799364
+      JumpHint: 199604161
+      New UI_UX_38: 376394748
+      New UI_UX_6: -501733770
+      New UI_UX_32: -1158643774
+      New UI_UX_10: 1225907685
+      New UI_UX_29: -566262979
+      Option: 2107666640
+      New UI_UX_23: -669584951
+      New UI_UX_22: -1767070864
+      New UI_UX_26: -241676401
+      New UI_UX_30: 705707605
+      New UI_UX_45: 2132732702
+      New UI_UX_19: 439347762
+      New UI_UX_42: 1898976193
+      New UI_UX_11: -1556945262
+      New UI_UX_12: 601842824
+      New UI_UX_3: 215881954
+      New UI_UX_31: -315877647
+      New UI_UX_39: 1142211207
+      New UI_UX_20: -738174809
+      New UI_UX_35: -113173880
+      New UI_UX_8: 1010373345
+      New UI_UX_5: 792103156
+      New UI_UX_13: -1330658639
+      MoveHint: 2089064594
+      QuitGame: 607761121
+      StartGame: -452369139
+      pause: 887310797
+      New UI_UX_25: 1605209264
+      New UI_UX_34: -206436374
+      ChatBox: -1699202416
+      New UI_UX_24: 983344966
+      New UI_UX_37: 206725229
+      QuitGameH: 1496263734
+      New UI_UX_18: -1409532
+      New UI_UX_16: -857154007
+      New UI_UX_4: 1596632895
+      OptionH: -933077989
+      New UI_UX_2: 356854508
+      StartGameH: -712770591
+      New UI_UX_41: -1383142804
+      New UI_UX_36: 41594305
+      New UI_UX_14: 1670740102
+      New UI_UX_28: -646592034
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
