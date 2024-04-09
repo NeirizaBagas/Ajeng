@@ -101,7 +101,6 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(walkSpeed * xAxis, rb.velocity.y);
         anim.SetBool("Walking", rb.velocity.x != 0 && Grounded());
-        
     }
 
     //dash
@@ -161,6 +160,6 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerStepSound()
     {
-        Lvl1AudioManager.instance.PlaySFX("PJalan");
+        //Lvl1AudioManager.instance.PlaySFX("PJalan");
     }
 }

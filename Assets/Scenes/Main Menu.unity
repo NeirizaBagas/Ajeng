@@ -749,7 +749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &991344873
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSounds:
   - name: MainMenuTheme
-    clip: {fileID: 8300000, guid: 15aac3f8d741a1244af8b3ddd073bc4e, type: 3}
+    clip: {fileID: 8300000, guid: fab12763b15aa4a4ea597fc094b7fcb9, type: 3}
   sfxSounds:
   - name: OnClickButton
     clip: {fileID: 8300000, guid: 9d303b3d967cf344dbaa4c8fa449c69d, type: 3}

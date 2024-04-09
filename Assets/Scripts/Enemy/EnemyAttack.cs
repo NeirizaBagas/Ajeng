@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyState : MonoBehaviour
+public class EnemyAttack : MonoBehaviour
 {
     private const string ATTACK_PARAM = "IsAttacking";
     private const string CHASING_PARAM = "IsChasing";
@@ -12,13 +12,13 @@ public class EnemyState : MonoBehaviour
     [SerializeField] private ENEMY_STATE state;
 
     [Header("Patrol Setting:")]
-    [SerializeField] private GameObject pointA;
-    [SerializeField] private GameObject pointB;
-    private Transform currentPoint;
+    //[SerializeField] private GameObject pointA;
+    //[SerializeField] private GameObject pointB;
+    //private Transform currentPoint;
     [SerializeField] private float speed;
     [SerializeField] private float audioDelay;
 
-    
+
     [Space(5)]
 
     [Header("Chase Setting:")]
@@ -34,18 +34,18 @@ public class EnemyState : MonoBehaviour
     private PlayerHealth health;
     [Space(5)]
 
-    private Animator anim;
+    [SerializeField] private Animator anim;
     private Vector2 defaultLocalScale;
 
-    
-   
+
+
     // Start is called before the first frame update
     void Start()
     {
 
-        currentPoint = pointB.transform;
+        //currentPoint = pointB.transform;
         defaultLocalScale = transform.localScale;
-        
+
         player = PlayerController.Instance;
         if (player != null)
         {
@@ -53,13 +53,12 @@ public class EnemyState : MonoBehaviour
             health = playerTransform.GetComponent<PlayerHealth>();
         }
         enemyTransform = transform;
-        anim = GetComponent<Animator>();
-        
+
         if (state == ENEMY_STATE.PATROL)
         {
             StartCoroutine(PlayPatrolSound());
         }
-        
+
     }
 
 
@@ -89,7 +88,7 @@ public class EnemyState : MonoBehaviour
     void Flip(bool isRight)
     {
         float XDir = isRight ? defaultLocalScale.x * 1 : defaultLocalScale.x * -1;
-        
+
         transform.localScale = new Vector2(XDir, transform.localScale.y);
     }
 
@@ -98,43 +97,43 @@ public class EnemyState : MonoBehaviour
 
         Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
 
-        transform.position = Vector2.MoveTowards(transform.position, currentPoint.position, speed * Time.deltaTime);
+        //transform.position = Vector2.MoveTowards(transform.position, currentPoint.position, speed * Time.deltaTime);
 
-        float distance = Vector2.Distance(transform.position, currentPoint.position);
+        //float distance = Vector2.Distance(transform.position, currentPoint.position);
 
-       
 
-        if (distance <= 0.5f)
-        {
-            currentPoint = currentPoint == pointB.transform ? pointA.transform : pointB.transform;
-        }
+
+        //if (distance <= 0.5f)
+        //{
+        //    currentPoint = currentPoint == pointB.transform ? pointA.transform : pointB.transform;
+        //}
 
         float playerDistance = Vector2.Distance(transform.position, player.transform.position);
 
-        if(playerDistance <= chasingRange)
+        if (playerDistance <= chasingRange)
         {
             Lvl1AudioManager.instance.PlaySFX("EChase");
             StopAllCoroutines();
             state = ENEMY_STATE.CHASE;
         }
 
-        if (currentPoint.position.x > transform.position.x)
-        {
-            Flip(true);
-        }
-        else
-        {
-            Flip(false);
-        }
+        //if (currentPoint.position.x > transform.position.x)
+        //{
+        //    Flip(true);
+        //}
+        //else
+        //{
+        //    Flip(false);
+        //}
 
-        
+
     }
 
     //mengubah arah enemy ke player & Bergerak menuju player
     void Chase()
     {
         if (player == null && PlayerHealth.Instance.health <= 0) { return; }
-        
+
         anim.SetBool(CHASING_PARAM, true);
 
         //nyari jarak player ke enemy
@@ -164,7 +163,7 @@ public class EnemyState : MonoBehaviour
             state = ENEMY_STATE.PATROL;
         }
 
-        
+
     }
 
     //Attack ke player
@@ -186,12 +185,12 @@ public class EnemyState : MonoBehaviour
         Lvl1AudioManager.instance.PlaySFX("EAttack");
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
-        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
-        Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
+    //    Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+    //    Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
+    //}
 
     private IEnumerator PlayPatrolSound()
     {
@@ -201,7 +200,7 @@ public class EnemyState : MonoBehaviour
     }
 }
 
-public enum ENEMY_STATE
+public enum ENEMY_ATTACK
 {
 
     PATROL,

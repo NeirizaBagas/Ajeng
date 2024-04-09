@@ -36,7 +36,7 @@ public class AttackController : MonoBehaviour
 
     private void GetInputs()
     {
-        attack = Input.GetKeyDown("j");
+        attack = Input.GetKeyDown("n");
         yAxis = Input.GetAxisRaw("Vertical");
     }
 

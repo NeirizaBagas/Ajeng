@@ -12,7 +12,7 @@ public class SceneManagement: MonoBehaviour
    public void PlayGame()
     {
         MainMenuAudioManager.instance.musicSource.Stop();
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Prolog");
     }
 
     public void QuitGame()
