@@ -229,8 +229,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.050749056, y: -0.008675416}
-  m_Size: {x: 0.16020991, y: 0.49927154}
+  m_Offset: {x: 0.36273515, y: 0.4429869}
+  m_Size: {x: 0.21080178, y: 0.7388118}
   m_Direction: 0
 --- !u!114 &6023422638163371386
 MonoBehaviour:
@@ -286,7 +286,6 @@ MonoBehaviour:
   speed: 2
   audioDelay: 5
   chasingRange: 10
-  damage: 10
   attackRange: 2
 --- !u!1 &6651857516932508624
 GameObject:

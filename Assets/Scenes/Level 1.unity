@@ -571,7 +571,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 1.5
-  cameraTransform: {fileID: 519420032}
 --- !u!1 &63948102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,7 +1346,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0
-  cameraTransform: {fileID: 0}
 --- !u!1 &270536153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2627,6 +2625,7 @@ MonoBehaviour:
   audioDelay: 2
   chasingRange: 7
   attackRange: 3
+  anim: {fileID: 0}
 --- !u!95 &514070559
 Animator:
   serializedVersion: 4
@@ -2744,9 +2743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14320d40fda732e47beeac63514c94a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 1524086507}
-  moveSpeed: 0.125
-  offset: {x: 0, y: 0, z: -20}
+  playerController: {fileID: 1524086504}
 --- !u!1 &532858473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,6 +4688,7 @@ MonoBehaviour:
   audioDelay: 1
   chasingRange: 7
   attackRange: 3
+  anim: {fileID: 0}
 --- !u!114 &803993648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5127,7 +5125,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0
-  cameraTransform: {fileID: 0}
 --- !u!1 &866303994
 GameObject:
   m_ObjectHideFlags: 0
@@ -9631,7 +9628,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxEffect: 0
-  cameraTransform: {fileID: 0}
 --- !u!1 &1733746930
 GameObject:
   m_ObjectHideFlags: 0
@@ -12080,22 +12076,6 @@ PrefabInstance:
     - target: {fileID: 6023422638163371388, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6761794701741142897, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
-      propertyPath: m_Size.x
-      value: 0.21080178
-      objectReference: {fileID: 0}
-    - target: {fileID: 6761794701741142897, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
-      propertyPath: m_Size.y
-      value: 0.7388118
-      objectReference: {fileID: 0}
-    - target: {fileID: 6761794701741142897, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.36273515
-      objectReference: {fileID: 0}
-    - target: {fileID: 6761794701741142897, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.4429869
       objectReference: {fileID: 0}
     - target: {fileID: 7949371092728212560, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_Layer
