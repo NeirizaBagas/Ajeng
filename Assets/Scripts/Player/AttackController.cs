@@ -61,6 +61,10 @@ public class AttackController : MonoBehaviour
                 }
             }
 
+            foreach (var enemy in hitEnemies)
+            {
+                enemy.GetComponent<EnemyController>().TakeDamage(10);
+            }
             
         }
     }
