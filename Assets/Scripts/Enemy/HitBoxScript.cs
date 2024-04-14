@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class HitBoxScript : MonoBehaviour
 {
-   
-    
-    
-
+    public float damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +20,14 @@ public class HitBoxScript : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.TryGetComponent(out PlayerHealth health))
+        //if (collision.gameObject.TryGetComponent(out PlayerHealth health))
+        //{
+        //    health.TakeDamage(10);
+        //}
+        if (collision.gameObject.CompareTag("Player"))
         {
-            health.TakeDamage(10);
+            Debug.Log("Player hit");
+            collision.GetComponent<PlayerHealth>().TakeDamage(damage);
         }
     }
 }
