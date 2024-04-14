@@ -7,14 +7,7 @@ public class EnemyFrog : MonoBehaviour
     public float attackRange;
     public Animator anim;
     public Transform attackPoint;
-    private GameObject Hitbox;
     public LayerMask playerMask;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -27,6 +20,7 @@ public class EnemyFrog : MonoBehaviour
         Collider2D[] detectPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerMask);
         foreach (Collider2D item in detectPlayer)
         {
+            //menyerang player ketika sudah dekat player
             anim.SetTrigger("Attack");
         }
     }
