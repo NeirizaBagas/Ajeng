@@ -33,14 +33,14 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         if (Health == 0) return;
+
         //enemySound = GetComponent<AudioSource>();
-        //StartCoroutine(Flip());
         //if (PlayerStatus.instance.isDie)
         //{
         //    anim.enabled = false;
         //    this.enabled = false;
         //}
-        //Physics2D.IgnoreLayerCollision(7, 7);
+
         DetectPlayer();
         Physics2D.IgnoreLayerCollision(6, 6, true);
         if (isDie)
@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
             Physics2D.IgnoreLayerCollision(6, 8, true);
         }
     }
-    void DetectPlayer()
+    void DetectPlayer() //Deteksi Player dalam jangkauan gizmo, lalu mengejarnya
     {
         float Direction = playerPos.position.x - transform.position.x;
         Collider2D[] enemyDetect = Physics2D.OverlapCircleAll(detect.transform.position, detectRange, playerlayer);
@@ -61,16 +61,17 @@ public class EnemyController : MonoBehaviour
         if(DetectPlayer.collider == null)
         {
             anim.SetFloat("Walk", Mathf.Abs(0));
-            StartCoroutine(Patrol());
+            StartCoroutine(Patrol()); //musuh kembali patroli jika tidak mendeteksi player
         }
 
-        foreach (Collider2D player in enemyDetect)
+        foreach (Collider2D player in enemyDetect) //mengejar player ketika mendeteksi player
         {
             rb.velocity = new Vector2(Direction * walkSpeed * Time.deltaTime, rb.velocity.y);
 
             StartCoroutine(Flip());
             anim.SetFloat("Walk", Mathf.Abs(walkSpeed));
             anim.SetBool("isWalk", false);
+
             npcJalan.enabled = false;
             PatrolDir.transform.position = gameObject.transform.position;
             //PatrolDir.SetActive(false);
@@ -84,7 +85,7 @@ public class EnemyController : MonoBehaviour
         Gizmos.DrawWireSphere(detect.transform.position, detectRange);
     }
 
-    IEnumerator Patrol()
+    IEnumerator Patrol() // delai lalu kembali patrol
     {
         yield return new WaitForSeconds(1);
         PatrolDir.SetActive(true);
@@ -108,7 +109,7 @@ public class EnemyController : MonoBehaviour
         transform.localScale = scale;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(float damage) //Musuh menerima damage
     {
         Health -= damage;
         anim.SetTrigger("Hurt");
@@ -121,7 +122,7 @@ public class EnemyController : MonoBehaviour
         }
         //enemySound.PlayOneShot(hurt, volume);
     }
-    void Die()
+    void Die() // musuh mati
     {
         anim.SetBool("isDead", true);
         //enemySound.PlayOneShot(die, volume);
