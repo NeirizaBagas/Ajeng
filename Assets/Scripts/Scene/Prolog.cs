@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class Prolog : MonoBehaviour
 {
-    public VideoPlayer vplayer;
+    [SerializeField] GameObject next;
 
-    private void Start()
-    {
-        vplayer.loopPointReached += OnVideoFinished;
-    }
+    //public VideoPlayer vplayer;
 
-    private void Update()
+    //private void Start()
+    //{
+    //    vplayer.loopPointReached += OnVideoFinished;
+    //}
+
+    public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
@@ -21,7 +24,12 @@ public class Prolog : MonoBehaviour
         }
     }
 
-    void OnVideoFinished(VideoPlayer vp)
+    //private void OnEnable()
+    //{
+    //    SceneManager.LoadSceneAsync("Level 1");
+    //}
+
+    public void NextScene()
     {
         SceneManager.LoadScene("Level 1");
     }

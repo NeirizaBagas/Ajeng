@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935d271374b4de14ba14a367c03ceb20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 100
+  Health: 10
   walkSpeed: 100
   flip: 0
   detectRange: 5
@@ -142,6 +142,7 @@ MonoBehaviour:
   isDie: 0
   PatrolDir: {fileID: 4384621367275921472}
   rb: {fileID: 7264588986082773594}
+  battleAreaIndex: 0
 --- !u!114 &4756156959417351822
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -34,7 +34,7 @@ public class SceneManagement: MonoBehaviour
     {
         if (gameHasEnded)
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadSceneAsync("Level 1");
         }
     }
 

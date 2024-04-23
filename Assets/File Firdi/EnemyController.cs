@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour
     public GameObject PatrolDir;
     private NPCJalan npcJalan;
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] protected int battleAreaIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,7 @@ public class EnemyController : MonoBehaviour
             this.enabled = false;
             PatrolDir.SetActive(false);
             Physics2D.IgnoreLayerCollision(6, 8, true);
+            BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
         }
     }
     void DetectPlayer() //Deteksi Player dalam jangkauan gizmo, lalu mengejarnya
@@ -125,11 +127,13 @@ public class EnemyController : MonoBehaviour
     void Die() // musuh mati
     {
         anim.SetBool("isDead", true);
+        BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
         //enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
         npcJalan.enabled = false;
         //rb.gravityScale = 1;
+        
     }
     
 }
