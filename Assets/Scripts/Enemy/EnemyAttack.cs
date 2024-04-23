@@ -31,7 +31,7 @@ public class EnemyAttack : MonoBehaviour
     [Header("Attack Setting:")]
     //[SerializeField] private float damage;
     [SerializeField] private float attackRange = 1f;
-    private PlayerHealth health;
+    [SerializeField] private PlayerHealth health;
     [Space(5)]
 
     [SerializeField] private Animator anim;

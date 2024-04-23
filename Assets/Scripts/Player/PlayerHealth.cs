@@ -67,6 +67,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)//kena damage
     {
+        Debug.Log("Player kena hit");
         if (health <= 0) return;
         health -= Mathf.RoundToInt(damage);
         anim.SetBool("TakeDamage", true);
