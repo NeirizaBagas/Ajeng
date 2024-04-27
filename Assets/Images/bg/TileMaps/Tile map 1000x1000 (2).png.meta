@@ -1,0 +1,1446 @@
+fileFormatVersion: 2
+guid: ac55a0b7f4487a546a68bb74a10e37f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de3a0fb31a915479bc87c31c5ad4be
+      internalID: 1413958153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a76918fc3b2b645a4b1fb2ad66ec77
+      internalID: -533678799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda19a0948059b4cb6931c50cbe6dc1
+      internalID: -1603896422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8767a754bb9a424cb63cffe7bd7a82e
+      internalID: 971960339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9360b32c184fdf440b8da40a9b76f6bf
+      internalID: -1223653011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c0b5c0ed21ae74283c2e4b02c6b6e0
+      internalID: -1921429384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fe6c0200c393f418256a1cf79709c6
+      internalID: -406459833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_7
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81adba0a3c5d46d40a9800348d66630c
+      internalID: -1291742645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 873
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fef51590a47ad40a22c48866a09474
+      internalID: 934522178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62de34246d46b5346bd04cfe9dab1faf
+      internalID: 1621552207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b019f37a42d01469db85eabe6a10b7
+      internalID: 1005445982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19edffdf94e6e7141a4fb014e33ba50f
+      internalID: -1264423585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_12
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b2958a9ba0b964b901f36ebb6976f5
+      internalID: 1026897273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_13
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c974d4e8e9bdaac4cb374f46c3ce8105
+      internalID: -41610558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98bf37e01dfef54e967d8e6a2709e5f
+      internalID: 1659708879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 777
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb52cf8bae018b4aad9135a4c557fb3
+      internalID: -171012825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_16
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 777
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b4f350c891a94c8e90403ec61f5cd
+      internalID: 980659904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 776
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35104acbcf8485547978e396bcd70d13
+      internalID: -799283917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734bd35958d69cf4282732caaee46b85
+      internalID: 1716337038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4665b437ebb2546b1aa9e5c66fd07b
+      internalID: 988214400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9549adc8a11d438d5ed710c9b8c20
+      internalID: 482973034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772b6b82701c2854d8a21694f5e1fc36
+      internalID: -2086429566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_22
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c7bb583a147d40808ce136f11de50
+      internalID: -1958659648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ba5f94080f6ab459e9681c749b4164
+      internalID: -2128062034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9f1eb3744f30a4c8df59c9ac42f428
+      internalID: -770630463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_25
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dcebea6365f0749b231f94412d53df
+      internalID: 1031494114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_26
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 679
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f28dfe3790cdaa4ebb82b451b46e4cb
+      internalID: 1394785435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd44c5735e3de8f458340ff1d49ce0e1
+      internalID: 872670258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_29
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dd26653c62fd54ca0f94bc0b9ad3ec
+      internalID: 1983342218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411fc503eeabefe47b148b2c8559c109
+      internalID: 881827209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_31
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2402ef3d61af7fa489e4ca3d6432cab8
+      internalID: -733376718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12f7e9f076ca6a4e9ee704802b7fde3
+      internalID: 521717866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_33
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be648a3034a58ac4597e355e47a09e4a
+      internalID: -1993398431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_34
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec5bcba8fa4bc40a6b21c322e5442f
+      internalID: -1208482382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_35
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f92a429d8b625479962792d14a5746
+      internalID: -451577173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_36
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 485
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a30895eed02884283d4a134df356fe
+      internalID: 1244238923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff3993e77f6624c8af58a899944de5
+      internalID: 2024920484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb38655920d020d48b3994abbade04bc
+      internalID: -1894900323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad18cb28cce5af41ad165d17e063537
+      internalID: 1367933070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_40
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2590e87497662304f8a6ca5b549f3643
+      internalID: 1365094301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_41
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9a4f786198c844993d5a05d1c16d80
+      internalID: -1638075642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de833055124be14bb1004689f6d82f9
+      internalID: 708655121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_43
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7ca08056f45f44282cd07daac3f651
+      internalID: -1996593757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_44
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 389
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75505366d0f0ca247b7af1668b727cdc
+      internalID: 574976637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_45
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 388
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0ba6f7c800a454aaa1cce0a0da5d0b
+      internalID: 993616250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569acd7672ac39040891680ccc4f814a
+      internalID: -220965062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3053b02f72fe33143b5fbf5d6a54df4f
+      internalID: 1482448305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4d51a0addbd36409439cd53b293e85
+      internalID: -268906119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_49
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98b3a533c0f32e4881ac877bfe7ca31
+      internalID: -1091741879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_50
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82856823d62f1314dacd795264974f65
+      internalID: -239986726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_51
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c3512fe97f4bd4986fcbffe1bdbd26
+      internalID: 1573802248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_52
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb0782aa20d2047b7cdbc99908100d
+      internalID: 1409343712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_53
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f003a5f8cfd64f5468bdbbb4879c52fc
+      internalID: -865207095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_54
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 291
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4bdfc60e79cd84ea7dc85547115515
+      internalID: -1716987348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_58
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 110
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18f8d9bb917564f935122771defc52
+      internalID: 702422172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 110
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a180e85a5d614b80dba909a411281
+      internalID: 1518450488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 110
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a64870dbdb2c34b94fd8a8c57e994b
+      internalID: 1762692578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 13
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0a8206387c6f14e8868381e8ff4cd8
+      internalID: 1034948010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 13
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8b0db7afbe4ef409a139d4169828e2
+      internalID: -96051527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile map 1000x1000 (2)_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 13
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3fe562ff09cd41851146f061ae52a
+      internalID: 735609911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile map 1000x1000 (2)_22: -1958659648
+      Tile map 1000x1000 (2)_53: -865207095
+      Tile map 1000x1000 (2)_24: -770630463
+      Tile map 1000x1000 (2)_0: 1413958153
+      Tile map 1000x1000 (2)_37: 2024920484
+      Tile map 1000x1000 (2)_39: 1367933070
+      Tile map 1000x1000 (2)_35: -451577173
+      Tile map 1000x1000 (2)_21: -2086429566
+      Tile map 1000x1000 (2)_33: -1993398431
+      Tile map 1000x1000 (2)_48: -268906119
+      Tile map 1000x1000 (2)_55: -891200672
+      Tile map 1000x1000 (2)_16: 980659904
+      Tile map 1000x1000 (2)_27: 1746215354
+      Tile map 1000x1000 (2)_63: 735609911
+      Tile map 1000x1000 (2)_9: 1621552207
+      Tile map 1000x1000 (2)_44: 574976637
+      Tile map 1000x1000 (2)_17: -799283917
+      Tile map 1000x1000 (2)_42: 708655121
+      Tile map 1000x1000 (2)_49: -1091741879
+      Tile map 1000x1000 (2)_10: 1005445982
+      Tile map 1000x1000 (2)_38: -1894900323
+      Tile map 1000x1000 (2)_40: 1365094301
+      Tile map 1000x1000 (2)_60: 1762692578
+      Tile map 1000x1000 (2)_43: -1996593757
+      Tile map 1000x1000 (2)_18: 1716337038
+      Tile map 1000x1000 (2)_6: -406459833
+      Tile map 1000x1000 (2)_20: 482973034
+      Tile map 1000x1000 (2)_32: 521717866
+      Tile map 1000x1000 (2)_36: 1244238923
+      Tile map 1000x1000 (2)_34: -1208482382
+      Tile map 1000x1000 (2)_62: -96051527
+      Tile map 1000x1000 (2)_8: 934522178
+      Tile map 1000x1000 (2)_52: 1409343712
+      Tile map 1000x1000 (2)_41: -1638075642
+      Tile map 1000x1000 (2)_15: -171012825
+      Tile map 1000x1000 (2)_57: 533384581
+      Tile map 1000x1000 (2)_13: -41610558
+      Tile map 1000x1000 (2)_12: 1026897273
+      Tile map 1000x1000 (2)_30: 881827209
+      Tile map 1000x1000 (2)_47: 1482448305
+      Tile map 1000x1000 (2)_14: 1659708879
+      Tile map 1000x1000 (2)_28: 872670258
+      Tile map 1000x1000 (2)_2: -1603896422
+      Tile map 1000x1000 (2)_58: 702422172
+      Tile map 1000x1000 (2)_29: 1983342218
+      Tile map 1000x1000 (2)_26: 1394785435
+      Tile map 1000x1000 (2)_56: -608776
+      Tile map 1000x1000 (2)_54: -1716987348
+      Tile map 1000x1000 (2)_51: 1573802248
+      Tile map 1000x1000 (2)_19: 988214400
+      Tile map 1000x1000 (2)_50: -239986726
+      Tile map 1000x1000 (2)_25: 1031494114
+      Tile map 1000x1000 (2)_5: -1921429384
+      Tile map 1000x1000 (2)_4: -1223653011
+      Tile map 1000x1000 (2)_3: 971960339
+      Tile map 1000x1000 (2)_1: -533678799
+      Tile map 1000x1000 (2)_23: -2128062034
+      Tile map 1000x1000 (2)_61: 1034948010
+      Tile map 1000x1000 (2)_7: -1291742645
+      Tile map 1000x1000 (2)_31: -733376718
+      Tile map 1000x1000 (2)_45: 993616250
+      Tile map 1000x1000 (2)_46: -220965062
+      Tile map 1000x1000 (2)_59: 1518450488
+      Tile map 1000x1000 (2)_11: -1264423585
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
