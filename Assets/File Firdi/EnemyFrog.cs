@@ -17,11 +17,14 @@ public class EnemyFrog : MonoBehaviour
 
     void Attacking()
     {
-        Collider2D[] detectPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerMask);
-        foreach (Collider2D item in detectPlayer)
+        if (anim != null)
         {
-            //menyerang player ketika sudah dekat player
-            anim.SetTrigger("Attack");
+            Collider2D[] detectPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerMask);
+            foreach (Collider2D item in detectPlayer)
+            {
+                //menyerang player ketika sudah dekat player
+                anim.SetTrigger("Attack");
+            }
         }
     }
     private void OnDrawGizmosSelected()

@@ -23,12 +23,14 @@ public class EnemyController : MonoBehaviour
     private NPCJalan npcJalan;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] protected int battleAreaIndex;
+    private AudioSource AudioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
         npcJalan = GetComponent<NPCJalan>();
+        AudioSource = GetComponent<AudioSource>();
     }
     // Update is called once per frame
     void Update()
@@ -121,6 +123,7 @@ public class EnemyController : MonoBehaviour
             Health = 0;
             Die();
             GetComponent<EnemyController>().isDie = true;
+            anim.SetTrigger("Attack");
         }
         //enemySound.PlayOneShot(hurt, volume);
     }
@@ -133,7 +136,7 @@ public class EnemyController : MonoBehaviour
         //GetComponent<Collider2D>().enabled = false;
         npcJalan.enabled = false;
         //rb.gravityScale = 1;
-        
+        AudioSource.enabled = false;
     }
     
 }
