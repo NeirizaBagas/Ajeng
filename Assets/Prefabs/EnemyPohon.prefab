@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 5236974532897038584}
   - component: {fileID: 3159094186106702184}
   - component: {fileID: 3013842165465140942}
+  - component: {fileID: 4773876659981660376}
   m_Layer: 6
   m_Name: EnemyPohon
   m_TagString: Untagged
@@ -418,6 +419,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4773876659981660376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023422638163371388}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935d271374b4de14ba14a367c03ceb20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 50
+  walkSpeed: 2
+  flip: 0
+  detectRange: 3
+  detect: {fileID: 4083249424185407502}
+  playerPos: {fileID: 0}
+  playerlayer:
+    serializedVersion: 2
+    m_Bits: 256
+  anim: {fileID: 5236974532897038584}
+  isDie: 0
+  PatrolDir: {fileID: 0}
+  rb: {fileID: 2689960408846161901}
+  battleAreaIndex: 0
 --- !u!1 &6098015643655694543
 GameObject:
   m_ObjectHideFlags: 0

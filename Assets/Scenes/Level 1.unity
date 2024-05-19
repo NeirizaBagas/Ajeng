@@ -4524,7 +4524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6023422638163371388, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_Name
-      value: EnemyPohon4
+      value: EnemyPohon1
       objectReference: {fileID: 0}
     - target: {fileID: 6023422638163371388, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_IsActive
@@ -13850,7 +13850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6023422638163371388, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_Name
-      value: EnemyPohon5
+      value: EnemyPohon2
       objectReference: {fileID: 0}
     - target: {fileID: 6023422638163371388, guid: 56455e897b267824db9d1e93e76f4d76, type: 3}
       propertyPath: m_IsActive
@@ -14037,11 +14037,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8503105019049023950, guid: 6c1ff4ba2b44e2c4281566b5629cce1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -78.3
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 8503105019049023950, guid: 6c1ff4ba2b44e2c4281566b5629cce1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 52.58
+      value: 47.9
       objectReference: {fileID: 0}
     - target: {fileID: 8503105019049023950, guid: 6c1ff4ba2b44e2c4281566b5629cce1d, type: 3}
       propertyPath: m_LocalPosition.z
