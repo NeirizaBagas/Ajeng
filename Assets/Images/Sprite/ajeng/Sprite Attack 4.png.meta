@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a7e3998a269fac4e8896d280c4e8859
+guid: 042fc59e77e0d8e448f8d2b811f011aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
-    resizeAlgorithm: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,169 +104,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite attack 2_0
+      name: Sprite Attack 4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1030
-        height: 1039
+        x: 10
+        y: 653
+        width: 1012
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.37333417, y: 0.5153363}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf19ba56a56d9c4980a461775196ed4
-      internalID: -1371429557
+      spriteID: 3784cb1ea5f91cf42b84315710fc93f6
+      internalID: -2082118050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_1
+      name: Sprite Attack 4_1
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 0
-        width: 1030
-        height: 1039
+        x: 1022
+        y: 653
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.3836082, y: 0.5167073}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163353d697af7424c8d1eb2ac675ac70
-      internalID: 1843014276
+      spriteID: 6f1b9327c6679a24cb4bcf432ddf87c4
+      internalID: 490033548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_2
+      name: Sprite Attack 4_2
       rect:
         serializedVersion: 2
-        x: 2062
-        y: 0
-        width: 1030
-        height: 1039
+        x: 2034
+        y: 653
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.40365297, y: 0.51593244}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af103e6adc9f5f429cec95c371abb16
-      internalID: -179823690
+      spriteID: 4e6c771dfe9fe4241b638a963d841a62
+      internalID: 737886053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_3
+      name: Sprite Attack 4_3
       rect:
         serializedVersion: 2
-        x: 3087
-        y: 0
-        width: 1030
-        height: 1039
+        x: 3046
+        y: 653
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.41849, y: 0.5194405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d13158ee1af06ae4c9add095317b7383
-      internalID: 2029768839
+      spriteID: 712e198155dd9d44f8c2df15e6ba49f0
+      internalID: -1489082181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_4
+      name: Sprite Attack 4_4
       rect:
         serializedVersion: 2
-        x: 4110
-        y: 0
-        width: 1030
-        height: 1039
+        x: 4058
+        y: 653
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.43490282, y: 0.5079152}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cadcf5b4674b2ea4d8f6204779b1c59e
-      internalID: 772594580
+      spriteID: eeb1b517a51dd1149ba70c3c6a3cf6fd
+      internalID: -608700665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_5
+      name: Sprite Attack 4_5
       rect:
         serializedVersion: 2
-        x: 5144
-        y: 0
-        width: 1030
-        height: 1039
+        x: 5070
+        y: 653
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.35894895, y: 0.5053992}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a55d781733938fd4b8d334c86e6d654f
-      internalID: -405511416
+      spriteID: ddd56462b4998ca4ab1a324372043779
+      internalID: -2048370665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_6
+      name: Sprite Attack 4_6
       rect:
         serializedVersion: 2
-        x: 6175
+        x: 10
         y: 0
-        width: 1030
-        height: 1039
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.38244578, y: 0.5107201}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d7c2e35d2e15fc42815cf60bad51577
-      internalID: -526256908
+      spriteID: 91b4ccd6937224e4f8178a9a48bc7fcb
+      internalID: 1668448099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite attack 2_7
+      name: Sprite Attack 4_7
       rect:
         serializedVersion: 2
-        x: 7206
+        x: 1022
         y: 0
-        width: 1030
-        height: 1039
+        width: 1012.3333
+        height: 653
       alignment: 9
-      pivot: {x: 0.5216499, y: 0.3251288}
+      pivot: {x: 0.39506298, y: 0.52957857}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 168b101e44e8c964e9bc3a38f2e1942a
-      internalID: -181286112
+      spriteID: 938fb14b347d24b479fec7564c294a28
+      internalID: 660987745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Attack 4_8
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 0
+        width: 1012.3333
+        height: 653
+      alignment: 9
+      pivot: {x: 0.40992233, y: 0.53313637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95703b79a8169394f81dc23dbc9d7009
+      internalID: -1578374121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Attack 4_9
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 0
+        width: 1012.3333
+        height: 653
+      alignment: 9
+      pivot: {x: 0.42259488, y: 0.5244897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55627839882c22f4e93bcc448c0797b2
+      internalID: -501732713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Attack 4_10
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 0
+        width: 1012.3333
+        height: 653
+      alignment: 9
+      pivot: {x: 0.43506294, y: 0.5246539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637f541da8cd71a4fbb9d0a282aa8d27
+      internalID: 856476919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite Attack 4_11
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 5
+        width: 1012
+        height: 653
+      alignment: 9
+      pivot: {x: 0.45220345, y: 0.5148148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b03246c1df1c04fb352c6418254ddc
+      internalID: 2062509217
       vertices: []
       indices: 
       edges: []
@@ -282,14 +366,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite attack 2_6: -526256908
-      Sprite attack 2_3: 2029768839
-      Sprite attack 2_5: -405511416
-      Sprite attack 2_1: 1843014276
-      Sprite attack 2_0: -1371429557
-      Sprite attack 2_2: -179823690
-      Sprite attack 2_7: -181286112
-      Sprite attack 2_4: 772594580
+      Sprite Attack 4_7: 660987745
+      Sprite Attack 4_8: -1578374121
+      Sprite Attack 4_1: 490033548
+      Sprite Attack 4_4: -608700665
+      Sprite Attack 4_5: -2048370665
+      Sprite Attack 4_11: 2062509217
+      Sprite Attack 4_6: 1668448099
+      Sprite Attack 4_2: 737886053
+      Sprite Attack 4_10: 856476919
+      Sprite Attack 4_0: -2082118050
+      Sprite Attack 4_9: -501732713
+      Sprite Attack 4_3: -1489082181
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

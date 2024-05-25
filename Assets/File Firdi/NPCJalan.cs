@@ -23,7 +23,10 @@ public class NPCJalan : MonoBehaviour
     {
         if(this.enabled == true)
         {
-            anim.SetBool("isWalk", true);
+            if (anim != null)
+            {
+                anim.SetBool("isWalk", true);
+            }
         }
 
         if (GetComponent<EnemyController>().Health == 0) return;
