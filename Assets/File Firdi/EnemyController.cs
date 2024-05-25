@@ -49,6 +49,7 @@ public class EnemyController : MonoBehaviour
         if (isDie)
         {
             npcJalan.speed = 0;
+            npcJalan.enabled = false;
             walkSpeed = 0;
             this.enabled = false;
             PatrolDir.SetActive(false);
