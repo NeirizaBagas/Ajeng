@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,7 +112,7 @@ TextureImporter:
         width: 1012
         height: 653
       alignment: 9
-      pivot: {x: 0.37333417, y: 0.5153363}
+      pivot: {x: 0.37873632, y: 0.53626776}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,7 +133,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.3836082, y: 0.5167073}
+      pivot: {x: 0.3917092, y: 0.54182535}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,7 +154,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.40365297, y: 0.51593244}
+      pivot: {x: 0.4056286, y: 0.540432}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,7 +175,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.41849, y: 0.5194405}
+      pivot: {x: 0.42281193, y: 0.5361929}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,7 +196,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.43490282, y: 0.5079152}
+      pivot: {x: 0.4398607, y: 0.5463387}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,7 +217,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.35894895, y: 0.5053992}
+      pivot: {x: 0.36145997, y: 0.54173934}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,7 +238,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.38244578, y: 0.5107201}
+      pivot: {x: 0.384595, y: 0.55137026}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,7 +259,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.39506298, y: 0.52957857}
+      pivot: {x: 0.39729437, y: 0.558987}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,7 +280,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.40992233, y: 0.53313637}
+      pivot: {x: 0.40696248, y: 0.54805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -296,12 +296,12 @@ TextureImporter:
       name: Sprite Attack 4_9
       rect:
         serializedVersion: 2
-        x: 3046
+        x: 3049
         y: 0
-        width: 1012.3333
+        width: 1012
         height: 653
       alignment: 9
-      pivot: {x: 0.42259488, y: 0.5244897}
+      pivot: {x: 0.42011365, y: 0.54351044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,7 +322,7 @@ TextureImporter:
         width: 1012.3333
         height: 653
       alignment: 9
-      pivot: {x: 0.43506294, y: 0.5246539}
+      pivot: {x: 0.43615252, y: 0.5465924}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,7 +343,7 @@ TextureImporter:
         width: 1012
         height: 653
       alignment: 9
-      pivot: {x: 0.45220345, y: 0.5148148}
+      pivot: {x: 0.452739, y: 0.5363751}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

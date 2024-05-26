@@ -2,9 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // Untuk mengakses SceneManagement untuk berpindah scene.
 using TMPro;
-
 
 public class Dialog : MonoBehaviour
 {
@@ -19,7 +17,11 @@ public class Dialog : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(Type()); // Memulai proses mengetik teks dialog.
+        
+        if (index < sentences.Length)
+        {
+            StartCoroutine(Type()); // Memulai proses mengetik teks dialog.
+        }
         continueButton.SetActive(false);
     }
 
@@ -28,6 +30,11 @@ public class Dialog : MonoBehaviour
         if (textDisplay.text == sentences[index]) // Memeriksa apakah teks yang ditampilkan sudah sama dengan kalimat yang sedang ditampilkan.
         {
             continueButton.SetActive(true); // Mengaktifkan tombol lanjutkan jika teks sudah selesai ditampilkan.
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) // Memeriksa apakah tombol ESC ditekan.
+        {
+            SkipDialog(); // Memanggil fungsi SkipDialog jika tombol ESC ditekan.
         }
     }
 
@@ -50,12 +57,20 @@ public class Dialog : MonoBehaviour
             textDisplay.text = ""; // Mengosongkan teks yang ditampilkan.
             imageDisplay.sprite = images[index]; // Menetapkan gambar yang sesuai dengan kalimat yang akan ditampilkan.
             StartCoroutine(Type()); // Memulai proses mengetik kalimat berikutnya.
+            
         }
         else
         {
             // Jika kalimat terakhir telah diucapkan, maka pindah ke scene selanjutnya.
             //SceneManager.LoadScene("Level 1");
             dialog.SetActive(false);
+            
         }
+    }
+
+    public void SkipDialog()
+    {
+        dialog.SetActive(false);
+        
     }
 }

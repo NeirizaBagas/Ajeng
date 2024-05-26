@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            anim.SetBool("IsDead", true);
+            anim.SetBool("isDead", true);
             gameObject.SetActive(false);
             BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
         }

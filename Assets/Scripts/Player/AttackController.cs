@@ -15,16 +15,17 @@ public class AttackController : MonoBehaviour
     private float timeSinceAttack = 0f;
     
     
-    
     //public Transform attackJarak;
     
     private Animator anim;
-    private PlayerController playerController;
+    private PlayerController pCon;
+    private Rigidbody2D rb;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
-        playerController = GetComponent<PlayerController>();
+        pCon = GetComponent<PlayerController>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -49,6 +50,8 @@ public class AttackController : MonoBehaviour
             timeSinceAttack = 0;
             anim.SetTrigger("Attacking");
             Lvl1AudioManager.instance.PlaySFX("PAttack");
+            //pCon.enabled = false;
+            //rb.velocity = Vector2.zero;
 
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -63,7 +66,27 @@ public class AttackController : MonoBehaviour
 
             foreach (var enemy in hitEnemies)
             {
-                enemy.GetComponent<EnemyController>().TakeDamage(10);
+                // Memastikan enemy memiliki komponen EnemyController sebelum memanggil TakeDamage
+                var enemyController = enemy.GetComponent<EnemyController>();
+                if (enemyController != null)
+                {
+                    enemyController.TakeDamage(10);
+                }
+                else
+                {
+                    Debug.LogWarning("Enemy does not have an EnemyController component.");
+                }
+
+                // Memastikan enemy memiliki komponen Enemy sebelum memanggil EnemyHit
+                var enemyComponent = enemy.GetComponent<Enemy>();
+                if (enemyComponent != null)
+                {
+                    enemyComponent.EnemyHit(damage, (transform.position - enemy.transform.position).normalized, 100);
+                }
+                else
+                {
+                    Debug.LogWarning("Enemy does not have an Enemy component.");
+                }
             }
             
         }
