@@ -50,11 +50,13 @@ public class EnemyController : MonoBehaviour
         {
             npcJalan.speed = 0;
             npcJalan.enabled = false;
+            rb.velocity = Vector2.zero;
             walkSpeed = 0;
             this.enabled = false;
             PatrolDir.SetActive(false);
             Physics2D.IgnoreLayerCollision(6, 8, true);
             BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
+
         }
     }
     void DetectPlayer() //Deteksi Player dalam jangkauan gizmo, lalu mengejarnya
@@ -122,8 +124,8 @@ public class EnemyController : MonoBehaviour
         if(Health <= 0)
         {
             Health = 0;
-            Die();
             GetComponent<EnemyController>().isDie = true;
+            Die();
             anim.SetTrigger("Attack");
         }
         //enemySound.PlayOneShot(hurt, volume);
@@ -135,9 +137,14 @@ public class EnemyController : MonoBehaviour
         //enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        npcJalan.enabled = false;
+        if (npcJalan != null )
+        {
+            npcJalan.enabled = false;
+        }
+        //npcJalan.speed = 0;
         //rb.gravityScale = 1;
-        AudioSource.enabled = false;
+        //AudioSource.enabled = false;
+        Physics2D.IgnoreLayerCollision(6, 8, true);
     }
     
 }

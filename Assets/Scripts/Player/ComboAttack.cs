@@ -18,17 +18,15 @@ public class ComboAttack : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-    }
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Debug.LogError("Multiple instances of ComboAttack detected! Destroying duplicate.");
+            Destroy(gameObject);
+        }
     }
 
     public void attack(InputAction.CallbackContext context)
@@ -39,41 +37,47 @@ public class ComboAttack : MonoBehaviour
             canReceiveInput = false;
             PerformAttack();
         }
-        else
-        {
-            return;
-        }
     }
 
     public void InputManager()
     {
-        if (!inputReceived)
-        {
-            canReceiveInput = true;
-        }
-        else
-        {
-            canReceiveInput = false;
-        }
+        canReceiveInput = !inputReceived;
     }
 
     private void PerformAttack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        for (int i = 0; i < hitEnemies.Length; i++)
+        if (attackPoint == null)
         {
-            if (hitEnemies[i].GetComponent<Enemy>() != null)
-            {
-                hitEnemies[i].GetComponent<Enemy>().EnemyHit(damage, (transform.position - hitEnemies[i].transform.position).normalized, 100);
-            }
+            Debug.LogError("Attack point is not assigned.");
+            return;
         }
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (var enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyController>().TakeDamage(10);
+            var enemyComponent = enemy.GetComponent<Enemy>();
+            if (enemyComponent != null)
+            {
+                enemyComponent.EnemyHit(damage, (transform.position - enemy.transform.position).normalized, 100);
+            }
+            else
+            {
+                Debug.LogWarning("Enemy component not found on object: " + enemy.name);
+            }
+
+            var enemyController = enemy.GetComponent<EnemyController>();
+            if (enemyController != null)
+            {
+                enemyController.TakeDamage(damage);
+            }
+            else
+            {
+                Debug.LogWarning("EnemyController not found on object: " + enemy.name);
+            }
         }
     }
+
 
     private void OnDrawGizmosSelected()
     {

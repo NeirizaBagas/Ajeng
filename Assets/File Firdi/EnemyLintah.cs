@@ -32,12 +32,15 @@ public class EnemyLintah : MonoBehaviour
     IEnumerator Attacking()
     {
         Collider2D[] detectPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerMask);
-        foreach (Collider2D item in detectPlayer)
+        if (anim != null)
         {
-            yield return new WaitForSeconds(0.5f);
-            anim.SetTrigger("Attack");
-            GetComponent<EnemyController>().isDie = true;
-            GetComponent<EnemyController>().Health = -10;
+            foreach (Collider2D item in detectPlayer)
+            {
+                yield return new WaitForSeconds(0.5f);
+                anim.SetTrigger("Attack");
+                GetComponent<EnemyController>().isDie = true;
+                GetComponent<EnemyController>().Health = -10;
+            }
         }
     }
 

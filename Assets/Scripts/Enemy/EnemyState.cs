@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class EnemyState : MonoBehaviour
 {
-    private const string ATTACK_PARAM = "IsAttacking";
+    private const string ATTACK_PARAM = "Attack";
     private const string CHASING_PARAM = "IsChasing";
 
     [SerializeField] private ENEMY_STATE state;
@@ -191,6 +191,14 @@ public class EnemyState : MonoBehaviour
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
         Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
+
+        // Menampilkan lingkaran untuk area jangkauan chase
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, chasingRange);
+
+        // Menampilkan lingkaran untuk area jangkauan serang
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 
     private IEnumerator PlayPatrolSound()

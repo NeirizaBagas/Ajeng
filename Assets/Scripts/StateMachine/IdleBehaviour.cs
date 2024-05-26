@@ -10,10 +10,16 @@ public class IdleBehaviour : StateMachineBehaviour
     //    
     //}
 
-   //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(ComboAttack.Instance.inputReceived)
+        if (ComboAttack.Instance == null)
+        {
+            Debug.LogError("ComboAttack.Instance is null. Make sure it is initialized.");
+            return;
+        }
+
+        if (ComboAttack.Instance.inputReceived)
         {
             animator.SetTrigger("Attacking");
             ComboAttack.Instance.InputManager();

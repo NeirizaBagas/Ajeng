@@ -7606,7 +7606,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190745376}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 17a862e3ef7567b4fa33e6dde2aacb7c, type: 2}
   m_InitialState: 1
