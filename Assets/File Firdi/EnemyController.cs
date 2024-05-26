@@ -52,7 +52,7 @@ public class EnemyController : MonoBehaviour
             npcJalan.enabled = false;
             rb.velocity = Vector2.zero;
             walkSpeed = 0;
-            this.enabled = false;
+            //this.enabled = false;
             PatrolDir.SetActive(false);
             Physics2D.IgnoreLayerCollision(6, 8, true);
             BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
@@ -101,19 +101,24 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator Flip()
     {
-        Vector2 scale = transform.localScale;
-        if (playerPos.position.x > transform.position.x)
+        if (!isDie)
         {
-            yield return new WaitForSeconds(0);
-            scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
-        }
-        else
-        {
-            yield return new WaitForSeconds(0);
-            scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);
+            Vector2 scale = transform.localScale;
+            if (playerPos.position.x > transform.position.x)
+            {
+                yield return new WaitForSeconds(0);
+                scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
+            }
+            else
+            {
+                yield return new WaitForSeconds(0);
+                scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);
 
+            }
+            transform.localScale = scale;
         }
-        transform.localScale = scale;
+
+        
     }
 
     public void TakeDamage(float damage) //Musuh menerima damage
@@ -135,12 +140,13 @@ public class EnemyController : MonoBehaviour
         anim.SetBool("isDead", true);
         BattleManager.instance.DeactivateBattleArea(battleAreaIndex);
         //enemySound.PlayOneShot(die, volume);
-        this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        if (npcJalan != null )
+        if (npcJalan != null)
         {
             npcJalan.enabled = false;
         }
+        //this.enabled = false;
+        //npcJalan.enabled = false;
         //npcJalan.speed = 0;
         //rb.gravityScale = 1;
         //AudioSource.enabled = false;

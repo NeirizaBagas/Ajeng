@@ -104,15 +104,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GolemIdleSheet_0
+      name: GolemIdleSheet_2
       rect:
         serializedVersion: 2
-        x: 188
+        x: 2188
         y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -125,15 +125,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_1
+      name: GolemIdleSheet_3
       rect:
         serializedVersion: 2
-        x: 1188
+        x: 3188
         y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,15 +146,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_2
+      name: GolemIdleSheet_17
       rect:
         serializedVersion: 2
-        x: 2188
-        y: 2078
+        x: 7185
+        y: 1078
         width: 709
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,15 +167,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_3
+      name: GolemIdleSheet_9
       rect:
         serializedVersion: 2
-        x: 3188
+        x: 9190
         y: 2078
         width: 709
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,15 +188,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_4
+      name: GolemIdleSheet_11
       rect:
         serializedVersion: 2
-        x: 4188
-        y: 2078
+        x: 1189
+        y: 1078
         width: 709
         height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,15 +209,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_5
+      name: GolemIdleSheet_18
       rect:
         serializedVersion: 2
-        x: 5188
-        y: 2078
+        x: 8187
+        y: 1078
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,15 +230,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_6
+      name: GolemIdleSheet_21
       rect:
         serializedVersion: 2
-        x: 6188
-        y: 2078
+        x: 1188
+        y: 78
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,15 +251,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_7
+      name: GolemIdleSheet_0
       rect:
         serializedVersion: 2
-        x: 7188
+        x: 188
         y: 2078
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,15 +272,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_8
+      name: GolemIdleSheet_12
       rect:
         serializedVersion: 2
-        x: 8188
-        y: 2078
+        x: 2191
+        y: 1078
         width: 709
         height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,15 +293,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_9
+      name: GolemIdleSheet_20
       rect:
         serializedVersion: 2
-        x: 9190
-        y: 2078
+        x: 188
+        y: 78
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,15 +314,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_10
+      name: GolemIdleSheet_14
       rect:
         serializedVersion: 2
-        x: 187
+        x: 4191
         y: 1078
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,15 +335,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_11
+      name: GolemIdleSheet_19
       rect:
         serializedVersion: 2
-        x: 1189
+        x: 9185
         y: 1078
         width: 709
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,15 +356,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_12
+      name: GolemIdleSheet_5
       rect:
         serializedVersion: 2
-        x: 2191
-        y: 1078
+        x: 5188
+        y: 2078
         width: 709
         height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,15 +377,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_13
+      name: GolemIdleSheet_1
       rect:
         serializedVersion: 2
-        x: 3189
-        y: 1078
+        x: 1188
+        y: 2078
         width: 709
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,15 +398,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_14
+      name: GolemIdleSheet_15
       rect:
         serializedVersion: 2
-        x: 4191
+        x: 5189
         y: 1078
         width: 709
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 792
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -419,15 +419,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_15
+      name: GolemIdleSheet_13
       rect:
         serializedVersion: 2
-        x: 5189
+        x: 3189
         y: 1078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -440,15 +440,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_16
+      name: GolemIdleSheet_4
       rect:
         serializedVersion: 2
-        x: 6187
-        y: 1078
+        x: 4188
+        y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -461,15 +461,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_17
+      name: GolemIdleSheet_8
       rect:
         serializedVersion: 2
-        x: 7185
-        y: 1078
+        x: 8188
+        y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,15 +482,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_18
+      name: GolemIdleSheet_6
       rect:
         serializedVersion: 2
-        x: 8187
-        y: 1078
+        x: 6188
+        y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,15 +503,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_19
+      name: GolemIdleSheet_7
       rect:
         serializedVersion: 2
-        x: 9185
-        y: 1078
+        x: 7188
+        y: 2078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,15 +524,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_20
+      name: GolemIdleSheet_10
       rect:
         serializedVersion: 2
-        x: 188
-        y: 78
+        x: 187
+        y: 1078
         width: 709
-        height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 760
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,15 +545,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GolemIdleSheet_21
+      name: GolemIdleSheet_16
       rect:
         serializedVersion: 2
-        x: 1188
-        y: 78
+        x: 6187
+        y: 1078
         width: 709
         height: 792
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -576,28 +576,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GolemIdleSheet_2: -9868746
-      GolemIdleSheet_3: -2055479501
-      GolemIdleSheet_17: 875591200
-      GolemIdleSheet_9: 1891577081
-      GolemIdleSheet_11: 1012626259
-      GolemIdleSheet_18: 202478861
-      GolemIdleSheet_21: -1256503157
-      GolemIdleSheet_0: -819918793
-      GolemIdleSheet_12: 841058411
-      GolemIdleSheet_20: -1679942029
-      GolemIdleSheet_14: 1166651719
-      GolemIdleSheet_19: -1044850231
-      GolemIdleSheet_5: -1260317023
-      GolemIdleSheet_1: -169341841
-      GolemIdleSheet_15: 907813288
-      GolemIdleSheet_13: 1029127197
-      GolemIdleSheet_4: 44552810
-      GolemIdleSheet_8: -1022126159
-      GolemIdleSheet_6: 1264499508
-      GolemIdleSheet_7: 2013063575
-      GolemIdleSheet_10: -2081989868
-      GolemIdleSheet_16: 716999538
+      GolemIdleSheet_2: -819918793
+      GolemIdleSheet_3: -169341841
+      GolemIdleSheet_17: -9868746
+      GolemIdleSheet_9: -2055479501
+      GolemIdleSheet_11: 44552810
+      GolemIdleSheet_18: -1260317023
+      GolemIdleSheet_21: 1264499508
+      GolemIdleSheet_0: 2013063575
+      GolemIdleSheet_12: -1022126159
+      GolemIdleSheet_20: 1891577081
+      GolemIdleSheet_14: -2081989868
+      GolemIdleSheet_19: 1012626259
+      GolemIdleSheet_5: 841058411
+      GolemIdleSheet_1: 1029127197
+      GolemIdleSheet_15: 1166651719
+      GolemIdleSheet_13: 907813288
+      GolemIdleSheet_4: 716999538
+      GolemIdleSheet_8: 875591200
+      GolemIdleSheet_6: 202478861
+      GolemIdleSheet_7: -1044850231
+      GolemIdleSheet_10: -1679942029
+      GolemIdleSheet_16: -1256503157
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
