@@ -6,7 +6,12 @@ using UnityEngine.SceneManagement;
 public class SceneManagement : MonoBehaviour
 {
     public GameObject gameOverUi;
-    bool gameHasEnded = false;
+<<<<<<< HEAD
+    //public GameObject pauseUi;
+=======
+    public GameObject pauseUi;
+>>>>>>> 03ba2f4ee3e9266b881f357d7942a7529735aab3
+    //bool gameHasEnded = false;
     public float restartDelay = 1f;
 
     public void PlayGame()
@@ -23,31 +28,34 @@ public class SceneManagement : MonoBehaviour
 
     public void EndGame()
     {
-        if (!gameHasEnded)
-        {
-            gameHasEnded = true;
-            gameOverUi.SetActive(true);
-            Time.timeScale = 0f; // Menghentikan waktu
-        }
+        //gameHasEnded = true;
+        gameOverUi.SetActive(true);
+        Time.timeScale = 0f; // Menghentikan waktu
     }
 
     public void RestartGame()
     {
-        if (gameHasEnded)
-        {
-            gameHasEnded = false; // Reset status game over
-            SceneManager.LoadSceneAsync("Level 1");
-            Time.timeScale = 1f; // Kembali ke kecepatan waktu normal
-        }
+        Time.timeScale = 1f; // Kembali ke kecepatan waktu normal
+        //gameHasEnded = false; // Reset status game over
+        SceneManager.LoadSceneAsync("Level 1");
     }
 
     public void BackToMainMenu()
     {
-        if (gameHasEnded)
-        {
-            gameHasEnded = false; // Reset status game over
-            SceneManager.LoadScene("Main Menu");
-            Time.timeScale = 1f; // Kembali ke kecepatan waktu normal
-        }
+        Time.timeScale = 1f; // Kembali ke kecepatan waktu normal
+        //gameHasEnded = false; // Reset status game over
+        SceneManager.LoadScene("Main Menu");
     }
+
+    public void Resume()
+    {
+<<<<<<< HEAD
+        //pauseUi.SetActive(false);
+=======
+        pauseUi.SetActive(false);
+>>>>>>> 03ba2f4ee3e9266b881f357d7942a7529735aab3
+        Time.timeScale = 1f;
+    }
+
+
 }
