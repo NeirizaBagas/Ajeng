@@ -41,15 +41,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (health <= 0)//Kondisi mati
-        {
-            health = 0;
-            //gameObject.GetComponent<PlayerHealth>().enabled = false;
-            anim.Play("Player_Death");
-            PlayerController.Instance.walkSpeed = 0;
-            FindObjectOfType<SceneManagement>().EndGame();
-
-        }
+        
 
         if(quantityData != 0)//Heal 
         {
@@ -67,12 +59,21 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)//kena damage
     {
-        if (health <= 0) return;
+        //if (health <= 0) return;
         health -= Mathf.RoundToInt(damage);
         anim.SetBool("TakeDamage", true);
         Lvl1AudioManager.instance.PlaySFX("PTakeDamage");
         StartCoroutine(StopTakingDamage());
-        
+
+        if (health <= 0)//Kondisi mati
+        {
+            health = 0;
+            //gameObject.GetComponent<PlayerHealth>().enabled = false;
+            anim.Play("Player_Death");
+            PlayerController.Instance.walkSpeed = 0;
+            FindObjectOfType<SceneManagement>().EndGame();
+
+        }
     }
 
     //
@@ -83,6 +84,7 @@ public class PlayerHealth : MonoBehaviour
         ClampHealth();
         yield return new WaitForSeconds(1f);
         pState.invicible = false;
+        Debug.Log("Invisible: "+pState.invicible);
     }
 
     void ClampHealth()
