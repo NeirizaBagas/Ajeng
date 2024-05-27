@@ -15,6 +15,7 @@ public class ComboAttack : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
     [SerializeField] private float attackRange = 0.5f;
     [SerializeField] float damage;
+    public int attackBuff;
 
     private void Awake()
     {
@@ -78,6 +79,14 @@ public class ComboAttack : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)//keris
+    {
+        if (collision.gameObject.CompareTag("Keris"))
+        {
+            Destroy(collision.gameObject);
+            damage += attackBuff;
+        }
+    }
 
     private void OnDrawGizmosSelected()
     {

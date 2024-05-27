@@ -8,7 +8,8 @@ public class AttackController : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
     [SerializeField] private float attackRange = 0.5f;
     [SerializeField] float damage;
-    
+
+    public int attackBuff;
     private float yAxis;
     private bool attack = false;
     private float timeBetweenAttack = 0.5f;
@@ -92,7 +93,16 @@ public class AttackController : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)//keris
+    {
+        if (collision.gameObject.CompareTag("Keris"))
+        {
+            Destroy(collision.gameObject);
+            damage += attackBuff;
+        }
+    }
+
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

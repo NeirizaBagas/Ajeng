@@ -7,8 +7,31 @@ public class SceneManagement : MonoBehaviour
 {
     public GameObject gameOverUi;
     public GameObject pauseUi;
+    public GameObject pauseButton;
+    public GameObject optionUi;
     //bool gameHasEnded = false;
     public float restartDelay = 1f;
+
+    private void Awake()
+    {
+        if (pauseUi != null)
+        {
+            pauseUi.SetActive(false);
+        }
+        if (pauseButton != null)
+        {
+            pauseButton.SetActive(true);
+        }
+        if (optionUi != null)
+        {
+            optionUi.SetActive(false);
+        }
+    }
+
+    private void Update()
+    {
+        AltPause();
+    }
 
     public void PlayGame()
     {
@@ -33,7 +56,8 @@ public class SceneManagement : MonoBehaviour
     {
         Time.timeScale = 1f; // Kembali ke kecepatan waktu normal
         //gameHasEnded = false; // Reset status game over
-        SceneManager.LoadSceneAsync("Level 1");
+        pauseUi.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Memuat ulang scene saat ini
     }
 
     public void BackToMainMenu()
@@ -46,8 +70,33 @@ public class SceneManagement : MonoBehaviour
     public void Resume()
     {
         pauseUi.SetActive(false);
+        pauseButton.SetActive(true);
         Time.timeScale = 1f;
     }
 
+    public void Pause()
+    {
+        Debug.Log("Pause Function Called");
+        pauseUi.SetActive(true);
+        pauseButton.SetActive(false);
+        Time.timeScale = 0f;
+    }
 
+    public void Option()
+    {
+        optionUi.SetActive(true);
+        pauseUi.SetActive(false);
+        Time.timeScale = 0f;
+    }
+
+    public void AltPause()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Pause");
+            pauseUi.SetActive(true);
+            pauseButton.SetActive(false);
+            Time.timeScale = 0f;
+        }
+    }
 }

@@ -15,6 +15,7 @@ public class PlayOneShotBehaviuor : StateMachineBehaviour
         if (playOnEnter)
         {
             AudioSource.PlayClipAtPoint(soundToPlay, animator.gameObject.transform.position, volume);
+            
         }
 
         timeSinceEnter = 0f;
@@ -29,8 +30,10 @@ public class PlayOneShotBehaviuor : StateMachineBehaviour
             timeSinceEnter += Time.deltaTime;
             if (timeSinceEnter > playDelay)
             {
+                Lvl1AudioManager.instance.SFXVolume(volume);
                 AudioSource.PlayClipAtPoint(soundToPlay, animator.gameObject.transform.position, volume);
                 hasDelayedSoundPlayed = true;
+                
             }
 
         }

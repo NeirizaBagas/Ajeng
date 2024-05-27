@@ -496,7 +496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 439.1, y: -93.17999}
+  m_AnchoredPosition: {x: 439.10004, y: -93.17999}
   m_SizeDelta: {x: -938.74, y: -486.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &323722666
@@ -722,7 +722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320.48, y: -27}
+  m_AnchoredPosition: {x: -320.48, y: -9}
   m_SizeDelta: {x: 423, y: 145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980467176
@@ -995,7 +995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347, y: -301.64}
+  m_AnchoredPosition: {x: -334, y: -344}
   m_SizeDelta: {x: 423, y: 145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &991344874
@@ -1204,6 +1204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUi: {fileID: 0}
+  pauseUi: {fileID: 0}
+  optionUi: {fileID: 0}
   restartDelay: 1
 --- !u!114 &1087127826
 MonoBehaviour:
@@ -1839,8 +1841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -164.32}
-  m_SizeDelta: {x: 536.94, y: 129.64}
+  m_AnchoredPosition: {x: -320, y: -173}
+  m_SizeDelta: {x: 530, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1970086626
 MonoBehaviour:

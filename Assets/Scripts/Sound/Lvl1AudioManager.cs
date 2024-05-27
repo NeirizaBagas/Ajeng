@@ -67,4 +67,24 @@ public class Lvl1AudioManager : MonoBehaviour
 
         sfxSource.clip = sfxSounds[index].clip;
     }
+
+    public void ToggleMusic()
+    {
+        musicSource.mute = !musicSource.mute;
+    }
+
+    public void ToggleSFX()
+    {
+        sfxSource.mute = !sfxSource.mute;
+    }
+
+    public void MusicVolume(float volume)
+    {
+        musicSource.volume = volume;
+    }
+
+    public void SFXVolume(float volume)
+    {
+        sfxSource.volume = volume;
+    }
 }
