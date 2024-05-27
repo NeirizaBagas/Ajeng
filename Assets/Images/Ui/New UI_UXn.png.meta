@@ -1679,7 +1679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New UI_UXn_75
+      name: ChatBox
       rect:
         serializedVersion: 2
         x: 298
@@ -3003,6 +3003,7 @@ TextureImporter:
       New UI_UXn_54: 1891970668
       New UI_UXn_83: 191883265
       New UI_UXn_101: 751260296
+      ChatBox: 55374475
       New UI_UXn_11: 398806764
       New UI_UXn_46: -812682917
       New UI_UXn_110: 934675199
@@ -3019,13 +3020,12 @@ TextureImporter:
       New UI_UXn_124: 1511180579
       New UI_UXn_131: 35590625
       New UI_UXn_4: 1219264550
-      New UI_UXn_42: -133123123
+      New UI_UXn_67: -325672049
       New UI_UXn_15: -1920525687
       New UI_UXn_23: -1764114502
-      New UI_UXn_67: -325672049
       New UI_UXn_53: -1118584847
+      New UI_UXn_42: -133123123
       New UI_UXn_31: -601068690
-      New UI_UXn_75: 55374475
       New UI_UXn_13: 1629448473
       New UI_UXn_61: 1110655730
       New UI_UXn_112: 915599020
