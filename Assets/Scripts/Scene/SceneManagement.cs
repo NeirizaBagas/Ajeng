@@ -6,11 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneManagement : MonoBehaviour
 {
     public GameObject gameOverUi;
-<<<<<<< HEAD
-    //public GameObject pauseUi;
-=======
     public GameObject pauseUi;
->>>>>>> 03ba2f4ee3e9266b881f357d7942a7529735aab3
     //bool gameHasEnded = false;
     public float restartDelay = 1f;
 
@@ -49,11 +45,7 @@ public class SceneManagement : MonoBehaviour
 
     public void Resume()
     {
-<<<<<<< HEAD
-        //pauseUi.SetActive(false);
-=======
         pauseUi.SetActive(false);
->>>>>>> 03ba2f4ee3e9266b881f357d7942a7529735aab3
         Time.timeScale = 1f;
     }
 
