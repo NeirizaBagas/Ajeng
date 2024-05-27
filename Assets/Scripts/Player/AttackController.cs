@@ -60,7 +60,7 @@ public class AttackController : MonoBehaviour
                 if (hitEnemies[i].GetComponent<Enemy>() != null)
                 {
                     hitEnemies[i].GetComponent<Enemy>().EnemyHit(damage, (transform.position - hitEnemies[i].transform.position).normalized, 100);
-                   
+
                 }
             }
 
